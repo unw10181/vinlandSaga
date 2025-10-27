@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css" defer />
+    <script src="script.js" defer></script>
     <title>Vinland Saga</title>
   </head>
   <body>
@@ -32,7 +33,37 @@
         put his best foot forward as he continues to live.
       </p>
     </div>
-    <script src="script.js"></script>
+    <div class="Contact">
+      <form action="action_page.php">
+        <label for="fname">Full Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="full name"
+          placeholder="full name.."
+        />
+
+        <label for="email">Email</label>
+        <input id="emai;" name="email" placeholder="Your email" />
+
+        <label for="Message">Message</label>
+        <textarea
+          id="subject"
+          name="Message"
+          placeholder="Write something.."
+          style="height: 200px"
+        ></textarea>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <div class="testimonials">
+      <h2>Testimonials</h1>
+        <ul>
+          <li>"This anime taught me so much about life"- David Goggins</li>
+          <li>"He might be an even better protagonist than me" -Naruto</li>
+          <li>"It feels like I am already in Vallhalla watching this"- Viking</li>
+        </ul>
+    </div>
   </body>
   <footer>
     <p>&copy; 2025 My Website</p>
